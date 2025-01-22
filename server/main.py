@@ -9,7 +9,7 @@ import copy
 import time
 
 server = "0.0.0.0"
-port = 5000
+port = 6789
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
