@@ -731,8 +731,8 @@ def start_loop(time, function, qtimer=None):
 
 
 # Make it global.
-_default_host = '6.tcp.ngrok.io'; _beta_host = ''
-_default_port = 15179; _beta_port = 5000
+_default_host = '192.168.161.224'; _beta_host = '192.168.161.224'
+_default_port = 6789; _beta_port = 6789
 app = QApplication(sys.argv)
 _openingpage = OpeningPage()
 _findroom = FindRoom()
